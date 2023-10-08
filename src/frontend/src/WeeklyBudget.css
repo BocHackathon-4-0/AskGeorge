@@ -1,0 +1,35 @@
+.budget-ring-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 400px; /* Adjusted height */
+}
+
+.budget-ring {
+    width: 240px; /* Adjusted width */
+    height: 240px; /* Adjusted height */
+}
+
+.budget-details {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 28px; /* Adjusted font size */
+}
+
+.spent-amount {
+    font-size: 32px; /* Adjusted font size */
+    font-weight: bold;
+}
+
+.budget-title {
+    margin-top: 10px; /* Adjusted margin */
+    font-size: 36px; /* Adjusted font size */
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}

@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="sidebar">
+          <Toolbar/>
       </div>
       <div className="chat-container">
         <ChatBox />

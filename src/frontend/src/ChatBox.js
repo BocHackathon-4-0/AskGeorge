@@ -9,6 +9,11 @@ function ChatBox() {
   const handleSend = (e) => {
     e.preventDefault();
 
+    // Check if the message is empty or has less than 3 characters
+    if (!input.trim() || input.length < 3) {
+        return; // Exit the function
+    }
+
     const userMessage = {
       user: "You",
       text: input
@@ -50,7 +55,9 @@ function ChatBox() {
             onChange={e => setInput(e.target.value)}
             placeholder="Type your message..."
             />
-            <button type="submit" disabled={isLoading}>Send</button>
+            <button type="submit" disabled={isLoading || !input.trim() || input.length < 3}>
+            Send
+            </button>
         </form>
     </div>
   );

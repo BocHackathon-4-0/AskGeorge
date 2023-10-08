@@ -1,0 +1,8 @@
+.toolbar {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* This will center the components vertically, but it's optional */
+}
+
