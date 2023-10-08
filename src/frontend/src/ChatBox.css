@@ -1,37 +1,66 @@
 .chatbox {
-    width: 80%;
-    max-width: 600px;
-    margin: 50px auto;
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 100vh;
+    margin-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
+
+  .chatbox::before {
+    content: "AskGeorge";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: rgba(0, 0, 0, 0.5); /* Greyed out at half opacity */
+    pointer-events: none; /* This makes sure the watermark won't block any click events */
+    display: block; /* By default, before has a display of inline */
+    z-index: -1; /* This ensures that it stays below the chat messages */
+  }
+
+  .chatbox.has-messages::before {
+    display: none;
+  }
+
+
   
   .messages {
-    max-height: 400px;
     overflow-y: auto;
-    margin-bottom: 20px;
+    flex-grow: 1;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column; /* Default is column, so you can also remove this line if you prefer */
   }
-  
+    
   .message {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
+    max-width: 60%;  /* Ensuring chat bubbles don't take the entire width */
+    display: inline-block;
   }
   
   .message.you {
     background-color: #e6f7ff;
-    text-align: right;
+    align-self: flex-end;
   }
   
   .message.bot {
     background-color: #ffedc7;
+    align-self: flex-start;
   }
   
   .input-area {
+    bottom: 0;
+    right: 0; /* Change from using 'left' and 'transform' to align it to the right */
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 -1px 10px rgba(0,0,0,0.1);
     display: flex;
+    border-top: 1px solid #ddd;
   }
+
   
   .input-area input {
     flex: 1;
@@ -53,4 +82,17 @@
   .input-area button:hover {
     background-color: #0056b3;
   }
+
+  /* Style for the Send button when it's not disabled */
+.input-area button:enabled {
+    background-color: #007BFF;  /* or any color you prefer for the enabled state */
+    cursor: pointer;
+}
+
+/* Style for the Send button when it's disabled */
+.input-area button:disabled {
+    background-color: #CCCCCC;  /* grey color for disabled state */
+    cursor: not-allowed;  /* this will show a "not allowed" cursor when hovered */
+}
+
   

@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
 import ChatBox from './ChatBox';
+import Toolbar from './Toolbar'
 
 function App() {
   return (
     <div className="App">
-      <h1>Financial Chatbot</h1>
-      <ChatBox />
+      <div className="sidebar">
+      </div>
+      <div className="chat-container">
+        <ChatBox />
+      </div>
     </div>
   );
 }
