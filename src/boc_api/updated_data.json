@@ -1,0 +1,43 @@
+{
+    "subscriptionId": "Subid000001-1696694934771",
+    "accountNumber": "351012345671",
+    "altAccount": "351012345675",
+    "bearerToken": "AAIkYmQyMzA2MjAtMWFhNS00NTA5LTg1OGMtODFlOTAyZDVjN2U0CzIlqh_dOiSmvVFcFa5NjQm8dF3jJXtyqCL9gStg71xV5dA421k8JOfZcG3BOAJho0cFSdhINITuOZx6p5PBPkd5JgjyX3A80xFF3TQ0m5E",
+    "subscription": {
+        "subscriptionId": "Subid000001-1696694934771",
+        "status": "ACTV",
+        "description": "SUBSCRIPTION",
+        "selectedAccounts": [
+            {
+                "accountId": "351092345676"
+            },
+            {
+                "accountId": "351012345673"
+            },
+            {
+                "accountId": "351012345671"
+            },
+            {
+                "accountId": "351012345674"
+            },
+            {
+                "accountId": "351012345675"
+            },
+            {
+                "accountId": "351092345672"
+            }
+        ],
+        "accounts": {
+            "transactionHistory": true,
+            "balance": true,
+            "details": true,
+            "checkFundsAvailability": true
+        },
+        "payments": {
+            "limit": 99999999,
+            "currency": "EUR",
+            "amount": 999999999
+        },
+        "expirationDate": "05/01/2024"
+    }
+}

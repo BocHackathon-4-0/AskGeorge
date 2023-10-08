@@ -1,0 +1,307 @@
+{
+    "transport": {
+        "Month 1": {
+            "ESSO": 186.0,
+            "Petrolina": 90.0,
+            "Panikos Car Mechanic": 31.0,
+            "Total": 307.0
+        },
+        "Month 2": {
+            "ESSO": 185.0,
+            "Petrolina": 90.0,
+            "Panikos Car Mechanic": 32.0,
+            "Total": 307.0
+        },
+        "Month 3": {
+            "ESSO": 177.0,
+            "Petrolina": 85.0,
+            "Panikos Car Mechanic": 28.0,
+            "Total": 290.0
+        },
+        "Month 4": {
+            "ESSO": 186.0,
+            "Petrolina": 87.0,
+            "Panikos Car Mechanic": 28.0,
+            "Total": 301.0
+        },
+        "Month 5": {
+            "ESSO": 172.0,
+            "Petrolina": 86.0,
+            "Panikos Car Mechanic": 27.0,
+            "Total": 285.0
+        },
+        "Month 6": {
+            "ESSO": 178.0,
+            "Petrolina": 93.0,
+            "Panikos Car Mechanic": 30.0,
+            "Total": 301.0
+        },
+        "Month 7": {
+            "ESSO": 174.0,
+            "Petrolina": 84.0,
+            "Panikos Car Mechanic": 29.0,
+            "Total": 287.0
+        },
+        "Month 8": {
+            "ESSO": 179.0,
+            "Petrolina": 94.0,
+            "Panikos Car Mechanic": 30.0,
+            "Total": 303.0
+        },
+        "Month 9": {
+            "ESSO": 184.0,
+            "Petrolina": 88.0,
+            "Panikos Car Mechanic": 32.0,
+            "Total": 304.0
+        },
+        "Month 10": {
+            "ESSO": 28.0,
+            "Petrolina": 31.0,
+            "Total": 59.0
+        }
+    },
+    "groceries": {
+        "Month 1": {
+            "Alphamega Hypermarket": 368.0,
+            "Athienitis": 131.0,
+            "Total": 499.0
+        },
+        "Month 2": {
+            "Alphamega Hypermarket": 405.0,
+            "Athienitis": 117.0,
+            "Total": 522.0
+        },
+        "Month 3": {
+            "Alphamega Hypermarket": 377.0,
+            "Athienitis": 127.0,
+            "Total": 504.0
+        },
+        "Month 4": {
+            "Alphamega Hypermarket": 349.0,
+            "Athienitis": 116.0,
+            "Total": 465.0
+        },
+        "Month 5": {
+            "Alphamega Hypermarket": 367.0,
+            "Athienitis": 120.0,
+            "Total": 487.0
+        },
+        "Month 6": {
+            "Alphamega Hypermarket": 375.0,
+            "Athienitis": 137.0,
+            "Total": 512.0
+        },
+        "Month 7": {
+            "Alphamega Hypermarket": 384.0,
+            "Athienitis": 137.0,
+            "Total": 521.0
+        },
+        "Month 8": {
+            "Alphamega Hypermarket": 366.0,
+            "Athienitis": 113.0,
+            "Total": 479.0
+        },
+        "Month 9": {
+            "Alphamega Hypermarket": 370.0,
+            "Athienitis": 129.0,
+            "Total": 499.0
+        },
+        "Month 10": {
+            "Alphamega Hypermarket": 117.0,
+            "Total": 117.0
+        }
+    },
+    "restaurants": {
+        "Month 1": {
+            "Evroulla": 178.0,
+            "Foukou tou Yiakoumi": 59.0,
+            "Etsi Apla Opos Palia": 15.0,
+            "Deliyard": 75.0,
+            "TGI Fridays": 120.0,
+            "Total": 447.0
+        },
+        "Month 2": {
+            "Evroulla": 181.0,
+            "Foukou tou Yiakoumi": 61.0,
+            "Etsi Apla Opos Palia": 14.0,
+            "Deliyard": 72.0,
+            "TGI Fridays": 116.0,
+            "Total": 444.0
+        },
+        "Month 3": {
+            "Evroulla": 183.0,
+            "Foukou tou Yiakoumi": 61.0,
+            "Etsi Apla Opos Palia": 16.0,
+            "Deliyard": 76.0,
+            "TGI Fridays": 117.0,
+            "Total": 453.0
+        },
+        "Month 4": {
+            "Evroulla": 180.0,
+            "Foukou tou Yiakoumi": 59.0,
+            "Etsi Apla Opos Palia": 15.0,
+            "Deliyard": 77.0,
+            "TGI Fridays": 123.0,
+            "Total": 454.0
+        },
+        "Month 5": {
+            "Evroulla": 177.0,
+            "Foukou tou Yiakoumi": 60.0,
+            "Etsi Apla Opos Palia": 14.0,
+            "Deliyard": 76.0,
+            "TGI Fridays": 119.0,
+            "Total": 446.0
+        },
+        "Month 6": {
+            "Evroulla": 176.0,
+            "Foukou tou Yiakoumi": 59.0,
+            "Etsi Apla Opos Palia": 15.0,
+            "Deliyard": 75.0,
+            "TGI Fridays": 122.0,
+            "Total": 447.0
+        },
+        "Month 7": {
+            "Evroulla": 179.0,
+            "Foukou tou Yiakoumi": 60.0,
+            "Etsi Apla Opos Palia": 14.0,
+            "Deliyard": 76.0,
+            "TGI Fridays": 119.0,
+            "Total": 448.0
+        },
+        "Month 8": {
+            "Evroulla": 181.0,
+            "Foukou tou Yiakoumi": 58.0,
+            "Etsi Apla Opos Palia": 14.0,
+            "Deliyard": 77.0,
+            "TGI Fridays": 120.0,
+            "Total": 450.0
+        },
+        "Month 9": {
+            "Evroulla": 176.0,
+            "Foukou tou Yiakoumi": 59.0,
+            "Etsi Apla Opos Palia": 15.0,
+            "Deliyard": 75.0,
+            "TGI Fridays": 119.0,
+            "Total": 444.0
+        },
+        "Month 10": {
+            "Evroulla": 48.0,
+            "Foukou tou Yiakoumi": 15.0,
+            "Deliyard": 14.0,
+            "TGI Fridays": 28.0,
+            "Total": 105.0
+        }
+    },
+    "shopping": {
+        "Month 1": {
+            "ZARA": 191.0,
+            "Amazon": 52.0,
+            "Ebay": 47.0,
+            "Total": 290.0
+        },
+        "Month 2": {
+            "ZARA": 207.0,
+            "Amazon": 52.0,
+            "Ebay": 54.0,
+            "Total": 313.0
+        },
+        "Month 3": {
+            "ZARA": 211.0,
+            "Amazon": 47.0,
+            "Ebay": 55.0,
+            "Total": 313.0
+        },
+        "Month 4": {
+            "ZARA": 188.0,
+            "Amazon": 52.0,
+            "Ebay": 49.0,
+            "Total": 289.0
+        },
+        "Month 5": {
+            "ZARA": 195.0,
+            "Amazon": 52.0,
+            "Ebay": 47.0,
+            "Total": 294.0
+        },
+        "Month 6": {
+            "ZARA": 200.0,
+            "Amazon": 50.0,
+            "Ebay": 54.0,
+            "Total": 304.0
+        },
+        "Month 7": {
+            "ZARA": 202.0,
+            "Amazon": 51.0,
+            "Ebay": 48.0,
+            "Total": 301.0
+        },
+        "Month 8": {
+            "ZARA": 202.0,
+            "Amazon": 52.0,
+            "Ebay": 47.0,
+            "Total": 301.0
+        },
+        "Month 9": {
+            "ZARA": 201.0,
+            "Amazon": 51.0,
+            "Ebay": 51.0,
+            "Total": 303.0
+        },
+        "Month 10": {
+            "ZARA": 54.0,
+            "Total": 54.0
+        }
+    },
+    "home": {
+        "Month 1": {
+            "Rent": 3987.0,
+            "Electricity": 1824.0,
+            "Total": 5811.0
+        },
+        "Month 2": {
+            "Rent": 3891.0,
+            "Electricity": 1813.0,
+            "Total": 5704.0
+        },
+        "Month 3": {
+            "Rent": 3874.0,
+            "Electricity": 1895.0,
+            "Total": 5769.0
+        },
+        "Month 4": {
+            "Rent": 3933.0,
+            "Electricity": 1817.0,
+            "Total": 5750.0
+        },
+        "Month 5": {
+            "Rent": 4151.0,
+            "Electricity": 2064.0,
+            "Total": 6215.0
+        },
+        "Month 6": {
+            "Rent": 4232.0,
+            "Electricity": 1803.0,
+            "Total": 6035.0
+        },
+        "Month 7": {
+            "Rent": 4028.0,
+            "Electricity": 2177.0,
+            "Total": 6205.0
+        },
+        "Month 8": {
+            "Rent": 3788.0,
+            "Electricity": 2063.0,
+            "Total": 5851.0
+        },
+        "Month 9": {
+            "Rent": 3970.0,
+            "Electricity": 1846.0,
+            "Total": 5816.0
+        },
+        "Month 10": {
+            "Rent": 3909.0,
+            "Electricity": 1958.0,
+            "Total": 5867.0
+        }
+    }
+}

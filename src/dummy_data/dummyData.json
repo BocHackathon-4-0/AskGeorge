@@ -1,0 +1,652 @@
+[
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Panikos Car Mechanic",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Petrolina",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ZARA",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Deliyard",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Foukou tou Yiakoumi",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Foukou tou Yiakoumi",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Deliyard",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ZARA",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Deliyard",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ZARA",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Amazon",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Petrolina",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Alphamega Hypermarket",
+            "accountId": "0"
+        },
+        "amount": 125
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Petrolina",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Alphamega Hypermarket",
+            "accountId": "0"
+        },
+        "amount": 125
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Ebay",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Foukou tou Yiakoumi",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Deliyard",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ZARA",
+            "accountId": "0"
+        },
+        "amount": 50
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "ESSO",
+            "accountId": "0"
+        },
+        "amount": 30
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Foukou tou Yiakoumi",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Etsi Apla Opos Palia",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Deliyard",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Alphamega Hypermarket",
+            "accountId": "0"
+        },
+        "amount": 125
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "TGI Fridays",
+            "accountId": "0"
+        },
+        "amount": 15
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Athienitis",
+            "accountId": "0"
+        },
+        "amount": 125
+    },
+    {
+        "debtor": {
+            "bankId": "BCYPCY2N",
+            "name": "ANDREAS MICHAEL",
+            "accountId": "351012345671"
+        },
+        "creditor": {
+            "bankId": "BCYPCY2N",
+            "name": "Evroulla",
+            "accountId": "0"
+        },
+        "amount": 15
+    }
+]

@@ -1,0 +1,662 @@
+{
+    "account": {
+        "bankId": "12345671",
+        "accountId": "351012345671",
+        "accountAlias": "ANDREAS",
+        "accountType": "CURRENT",
+        "accountName": "ANDREAS LORDOS",
+        "IBAN": "CY99999999999999999999999999",
+        "currency": "EUR",
+        "infoTimeStamp": "1511779237"
+    },
+    "transaction": [
+        {
+            "id": "3c19460d7b3b471bb15d94c9d824a651",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 27,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "27/05/2023",
+            "valueDate": "11/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "f811131c0be54739b19a2147cdae1c83",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 30,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "01/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "dface5d35a8a439ea5d1187eb1a73d1b",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 27,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "04/05/2023",
+            "valueDate": "06/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "9ea15d59a503448990c8fdbed8903678",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 29,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "04/05/2023",
+            "valueDate": "15/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "aa03351362774796bc27ae877b6e0377",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 31,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "06/05/2023",
+            "valueDate": "22/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "ce7307179829489f918825e87fd1f032",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 28,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***ESSO",
+            "postingDate": "13/05/2023",
+            "valueDate": "06/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "6cb1f24b8aeb46359304338053dd75e8",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 30,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***Petrolina",
+            "postingDate": "21/05/2023",
+            "valueDate": "17/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "2d198ca5fe9a428eb8c6e977b0b15383",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 28,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***Petrolina",
+            "postingDate": "15/05/2023",
+            "valueDate": "30/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "baed89cbd8534329ab508061787b0c0a",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 28,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***Petrolina",
+            "postingDate": "20/05/2023",
+            "valueDate": "01/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "7857c0a7019f450cb5c3e96edf2ed9de",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 27,
+                "currency": "EUR"
+            },
+            "description": "***TRANSPORT***Panikos Car Mechanic",
+            "postingDate": "29/05/2023",
+            "valueDate": "30/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "afab778562a04e7ba63a06cecb67553c",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 122,
+                "currency": "EUR"
+            },
+            "description": "***GROCERIES***Alphamega Hypermarket",
+            "postingDate": "22/05/2023",
+            "valueDate": "20/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "be84fb3d9fed4222a5e7dca3f9ebab2c",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 113,
+                "currency": "EUR"
+            },
+            "description": "***GROCERIES***Alphamega Hypermarket",
+            "postingDate": "18/05/2023",
+            "valueDate": "07/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "69c864c85c934e008159bf30f8d7c303",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 132,
+                "currency": "EUR"
+            },
+            "description": "***GROCERIES***Alphamega Hypermarket",
+            "postingDate": "05/05/2023",
+            "valueDate": "27/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "74ced05c81c84a0d9f9876bf55cdea18",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 120,
+                "currency": "EUR"
+            },
+            "description": "***GROCERIES***Athienitis",
+            "postingDate": "06/05/2023",
+            "valueDate": "09/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "69abbb3bef5a4c98aa202114a91968ac",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "11/05/2023",
+            "valueDate": "15/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "a4c392ac4b094fd7b799686c109e3fc8",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "26/05/2023",
+            "valueDate": "04/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "5cf1b5c79fe14aeca86cda075862e7fa",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "26/05/2023",
+            "valueDate": "29/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "3ea22ec9fff24360b1626ee1d567fcbd",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "28/05/2023",
+            "valueDate": "09/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "f06ce092203541ba8dafc9086480841b",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "26/05/2023",
+            "valueDate": "23/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "74f4626025bd484681a62a1eb75c99d3",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "16/05/2023",
+            "valueDate": "10/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "177d3d5d81534a628f1d0b44694230e0",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "12/05/2023",
+            "valueDate": "11/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "17f18b37f52b4492ab80cdae8354e05c",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "11/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "1413979c00d646f990626e547057e1be",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "15/05/2023",
+            "valueDate": "21/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "76ceab9c262a4be091f62efba1442c6f",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "10/05/2023",
+            "valueDate": "13/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "67484596dae94277b93f78fa88016e7d",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "20/05/2023",
+            "valueDate": "01/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "495a0d0642b048d3b64d5350a2d9467e",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Evroulla",
+            "postingDate": "30/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "b97d60e08a2242388b762580320d8bdf",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Foukou tou Yiakoumi",
+            "postingDate": "19/05/2023",
+            "valueDate": "22/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "d117915cdf92400da29de7dc7c862f85",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Foukou tou Yiakoumi",
+            "postingDate": "21/05/2023",
+            "valueDate": "30/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "22f8a07ef15f4d0687f67f95e83721b4",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Foukou tou Yiakoumi",
+            "postingDate": "09/05/2023",
+            "valueDate": "12/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "b7a145e14d8940f4b3ce957068ad9651",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Foukou tou Yiakoumi",
+            "postingDate": "22/05/2023",
+            "valueDate": "10/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "aace5062e2cd451cb0a0b48e81d1d1f5",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Etsi Apla Opos Palia",
+            "postingDate": "17/05/2023",
+            "valueDate": "06/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "a12ba67fbb4647c1bebffee76f99190f",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Deliyard",
+            "postingDate": "25/05/2023",
+            "valueDate": "17/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "3de64a4190f34d1cb49ccece351483af",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Deliyard",
+            "postingDate": "11/05/2023",
+            "valueDate": "10/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "709615a015a34fc0be2117f6e5f30636",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Deliyard",
+            "postingDate": "17/05/2023",
+            "valueDate": "30/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "75671760dee14aaaadc422ab797b09be",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Deliyard",
+            "postingDate": "30/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "183e6235ea47467fa5e12c6e70ac5e4a",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***Deliyard",
+            "postingDate": "09/05/2023",
+            "valueDate": "01/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "66c7eb729fd0447faaf1214c6e9daa95",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "19/05/2023",
+            "valueDate": "03/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "091dd75491044f2fa427419445d02682",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "17/05/2023",
+            "valueDate": "27/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "e24d542be3b3434ab8682fe073bb50bd",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "12/05/2023",
+            "valueDate": "07/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "f2ec62efcdce45aaa8c64b4fd444d57a",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "02/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "52ab6c43d3424d71958d6eaca1f0bab0",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 15,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "03/05/2023",
+            "valueDate": "29/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "8dcbd24eb84b4b509413ed0d491260dd",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 16,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "13/05/2023",
+            "valueDate": "22/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "941ae767adc24aa7ad7c29a738e8a393",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "29/05/2023",
+            "valueDate": "28/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "bce55012985442eea4365ce1c55fe04d",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 14,
+                "currency": "EUR"
+            },
+            "description": "***RESTAURANTS***TGI Fridays",
+            "postingDate": "04/05/2023",
+            "valueDate": "11/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "50fea9c8bb844e10a4e5a5cb92649a9c",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 50,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***ZARA",
+            "postingDate": "19/05/2023",
+            "valueDate": "26/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "a1cd0309e41042e6b2692fbb63d85f82",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 48,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***ZARA",
+            "postingDate": "15/05/2023",
+            "valueDate": "04/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "ef3e4667dd9a4183a8f52aaccf25b9ab",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 48,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***ZARA",
+            "postingDate": "11/05/2023",
+            "valueDate": "18/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "deac0fe29f094c1ba236fafbf1bc5b7a",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 49,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***ZARA",
+            "postingDate": "05/05/2023",
+            "valueDate": "22/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "bbbc1b9c6ea343beb8cb9a6af7a3a33f",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 52,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***Amazon",
+            "postingDate": "05/05/2023",
+            "valueDate": "21/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "94d6dbe7c6f44306a2530ca1d9ccc1aa",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 47,
+                "currency": "EUR"
+            },
+            "description": "***SHOPPING***Ebay",
+            "postingDate": "22/05/2023",
+            "valueDate": "16/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "7bf9764c7eb34271a8e1ba89e19bf81b",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 2189,
+                "currency": "EUR"
+            },
+            "description": "***HOME***Rent",
+            "postingDate": "24/05/2023",
+            "valueDate": "23/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "6381a459f7464522a6740b27cc7e4a8c",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 1962,
+                "currency": "EUR"
+            },
+            "description": "***HOME***Rent",
+            "postingDate": "26/05/2023",
+            "valueDate": "24/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "564535770eb842eb8bdfffb4f3fed8e9",
+            "dcInd": "DEBIT",
+            "transactionAmount": {
+                "amount": 2064,
+                "currency": "EUR"
+            },
+            "description": "***HOME***Electricity",
+            "postingDate": "17/05/2023",
+            "valueDate": "12/05/2023",
+            "transactionType": "PAYMENT"
+        },
+        {
+            "id": "396524e32be1471785f4187e18adf220",
+            "dcInd": "CREDIT",
+            "transactionAmount": {
+                "amount": 8000,
+                "currency": "EUR"
+            },
+            "description": "***WAGES***Software Programming Job",
+            "postingDate": "06/05/2023",
+            "valueDate": "14/05/2023",
+            "transactionType": "PAYMENT"
+        }
+    ]
+}

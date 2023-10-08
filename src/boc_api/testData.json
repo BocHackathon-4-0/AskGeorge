@@ -1,0 +1,14 @@
+{
+    "debtor": {
+        "bankId": "BCYPCY2N",
+        "name": "ANDREAS MICHAEL",
+        "accountId": "351012345671"
+    },
+    "creditor": {
+        "bankId": "BCYPCY2N",
+        "name": "Evroulla",
+        "accountId": "351012345673"
+    },
+    "amount": "30",
+    "details": "***TESTCATEGORY***Evroulla"
+}

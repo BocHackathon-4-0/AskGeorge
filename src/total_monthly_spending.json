@@ -1,0 +1,86 @@
+{
+    "Month 1": {
+        "moneyMade": 8000,
+        "moneySpent": 7354,
+        "leftoverMoney": 646,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": null,
+        "leftoverMoney_change_pct": null
+    },
+    "Month 2": {
+        "moneyMade": 8000,
+        "moneySpent": 7290,
+        "leftoverMoney": 710,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": -0.87,
+        "leftoverMoney_change_pct": 9.91
+    },
+    "Month 3": {
+        "moneyMade": 8000,
+        "moneySpent": 7329,
+        "leftoverMoney": 671,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": 0.53,
+        "leftoverMoney_change_pct": -5.49
+    },
+    "Month 4": {
+        "moneyMade": 8000,
+        "moneySpent": 7259,
+        "leftoverMoney": 741,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": -0.96,
+        "leftoverMoney_change_pct": 10.43
+    },
+    "Month 5": {
+        "moneyMade": 8000,
+        "moneySpent": 7727,
+        "leftoverMoney": 273,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": 6.45,
+        "leftoverMoney_change_pct": -63.16
+    },
+    "Month 6": {
+        "moneyMade": 8000,
+        "moneySpent": 7599,
+        "leftoverMoney": 401,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": -1.66,
+        "leftoverMoney_change_pct": 46.89
+    },
+    "Month 7": {
+        "moneyMade": 8000,
+        "moneySpent": 7762,
+        "leftoverMoney": 238,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": 2.15,
+        "leftoverMoney_change_pct": -40.65
+    },
+    "Month 8": {
+        "moneyMade": 8000,
+        "moneySpent": 7384,
+        "leftoverMoney": 616,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": -4.87,
+        "leftoverMoney_change_pct": 158.82
+    },
+    "Month 9": {
+        "moneyMade": 8000,
+        "moneySpent": 7366,
+        "leftoverMoney": 634,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": -0.24,
+        "leftoverMoney_change_pct": 2.92
+    },
+    "Month 10": {
+        "moneyMade": 8000,
+        "moneySpent": 6202,
+        "leftoverMoney": 1798,
+        "moneyMade_change_pct": null,
+        "moneySpent_change_pct": null,
+        "leftoverMoney_change_pct": null,
+        "projected_moneySpent": 7165.125,
+        "projected_leftoverMoney": 834.875,
+        "proj_moneySpent_change_pct": -2.73,
+        "proj_leftoverMoney_change_pct": 31.68
+    }
+}
