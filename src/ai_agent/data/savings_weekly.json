@@ -1,0 +1,212 @@
+{
+    "account_number": "1234567890",
+    "type": "savings",
+    "frequency": "weekly",
+    "data": [
+        {
+            "date": "2023-01-01",
+            "amount": 2518.16,
+            "changeFromLastWeek": 0
+        },
+        {
+            "date": "2023-01-08",
+            "amount": 2722.5,
+            "changeFromLastWeek": 204.34
+        },
+        {
+            "date": "2023-01-15",
+            "amount": 2914.01,
+            "changeFromLastWeek": 191.51
+        },
+        {
+            "date": "2023-01-22",
+            "amount": 3136.86,
+            "changeFromLastWeek": 222.85
+        },
+        {
+            "date": "2023-01-29",
+            "amount": 3341.11,
+            "changeFromLastWeek": 204.25
+        },
+        {
+            "date": "2023-02-05",
+            "amount": 3552.04,
+            "changeFromLastWeek": 210.93
+        },
+        {
+            "date": "2023-02-12",
+            "amount": 3762.79,
+            "changeFromLastWeek": 210.75
+        },
+        {
+            "date": "2023-02-19",
+            "amount": 3953.16,
+            "changeFromLastWeek": 190.37
+        },
+        {
+            "date": "2023-02-26",
+            "amount": 4138.25,
+            "changeFromLastWeek": 185.09
+        },
+        {
+            "date": "2023-03-05",
+            "amount": 4347.11,
+            "changeFromLastWeek": 208.86
+        },
+        {
+            "date": "2023-03-12",
+            "amount": 4561.53,
+            "changeFromLastWeek": 214.42
+        },
+        {
+            "date": "2023-03-19",
+            "amount": 4770.67,
+            "changeFromLastWeek": 209.14
+        },
+        {
+            "date": "2023-03-26",
+            "amount": 4976.34,
+            "changeFromLastWeek": 205.67
+        },
+        {
+            "date": "2023-04-02",
+            "amount": 5180.93,
+            "changeFromLastWeek": 204.59
+        },
+        {
+            "date": "2023-04-09",
+            "amount": 5392.64,
+            "changeFromLastWeek": 211.71
+        },
+        {
+            "date": "2023-04-16",
+            "amount": 5605.58,
+            "changeFromLastWeek": 212.94
+        },
+        {
+            "date": "2023-04-23",
+            "amount": 5820.33,
+            "changeFromLastWeek": 214.75
+        },
+        {
+            "date": "2023-04-30",
+            "amount": 5997.95,
+            "changeFromLastWeek": 177.62
+        },
+        {
+            "date": "2023-05-07",
+            "amount": 6187.23,
+            "changeFromLastWeek": 189.28
+        },
+        {
+            "date": "2023-05-14",
+            "amount": 6386.16,
+            "changeFromLastWeek": 198.93
+        },
+        {
+            "date": "2023-05-21",
+            "amount": 6606.79,
+            "changeFromLastWeek": 220.63
+        },
+        {
+            "date": "2023-05-28",
+            "amount": 6804.25,
+            "changeFromLastWeek": 197.46
+        },
+        {
+            "date": "2023-06-04",
+            "amount": 7020.11,
+            "changeFromLastWeek": 215.86
+        },
+        {
+            "date": "2023-06-11",
+            "amount": 7240.33,
+            "changeFromLastWeek": 220.22
+        },
+        {
+            "date": "2023-06-18",
+            "amount": 7434.96,
+            "changeFromLastWeek": 194.63
+        },
+        {
+            "date": "2023-06-25",
+            "amount": 7647.66,
+            "changeFromLastWeek": 212.7
+        },
+        {
+            "date": "2023-07-02",
+            "amount": 7864.71,
+            "changeFromLastWeek": 217.05
+        },
+        {
+            "date": "2023-07-09",
+            "amount": 8077.36,
+            "changeFromLastWeek": 212.65
+        },
+        {
+            "date": "2023-07-16",
+            "amount": 8293.34,
+            "changeFromLastWeek": 215.98
+        },
+        {
+            "date": "2023-07-23",
+            "amount": 8498.7,
+            "changeFromLastWeek": 205.36
+        },
+        {
+            "date": "2023-07-30",
+            "amount": 8693.33,
+            "changeFromLastWeek": 194.63
+        },
+        {
+            "date": "2023-08-06",
+            "amount": 8888.01,
+            "changeFromLastWeek": 194.68
+        },
+        {
+            "date": "2023-08-13",
+            "amount": 9086.73,
+            "changeFromLastWeek": 198.72
+        },
+        {
+            "date": "2023-08-20",
+            "amount": 9315.46,
+            "changeFromLastWeek": 228.73
+        },
+        {
+            "date": "2023-08-27",
+            "amount": 9566.29,
+            "changeFromLastWeek": 250.83
+        },
+        {
+            "date": "2023-09-03",
+            "amount": 9788.78,
+            "changeFromLastWeek": 222.49
+        },
+        {
+            "date": "2023-09-10",
+            "amount": 10014.16,
+            "changeFromLastWeek": 225.38
+        },
+        {
+            "date": "2023-09-17",
+            "amount": 10201.54,
+            "changeFromLastWeek": 187.38
+        },
+        {
+            "date": "2023-09-24",
+            "amount": 10397.38,
+            "changeFromLastWeek": 195.84
+        },
+        {
+            "date": "2023-10-01",
+            "amount": 10569.8,
+            "changeFromLastWeek": 172.42
+        },
+        {
+            "date": "2023-10-08",
+            "amount": 10791.55,
+            "changeFromLastWeek": 221.75
+        }
+    ]
+}

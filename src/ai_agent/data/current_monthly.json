@@ -1,0 +1,57 @@
+{
+    "account_number": "1234567890",
+    "type": "current",
+    "frequency": "monthly",
+    "data": [
+        {
+            "date": "2023-01-01",
+            "amount": 411.97,
+            "changeFromLastMonth": 0
+        },
+        {
+            "date": "2023-02-01",
+            "amount": 753.52,
+            "changeFromLastMonth": 341.55
+        },
+        {
+            "date": "2023-03-01",
+            "amount": 1028.29,
+            "changeFromLastMonth": 274.77
+        },
+        {
+            "date": "2023-04-01",
+            "amount": 1349.06,
+            "changeFromLastMonth": 320.77
+        },
+        {
+            "date": "2023-05-01",
+            "amount": 1634.89,
+            "changeFromLastMonth": 285.83
+        },
+        {
+            "date": "2023-06-01",
+            "amount": 1950.69,
+            "changeFromLastMonth": 315.8
+        },
+        {
+            "date": "2023-07-01",
+            "amount": 2223.61,
+            "changeFromLastMonth": 272.92
+        },
+        {
+            "date": "2023-08-01",
+            "amount": 2506.37,
+            "changeFromLastMonth": 282.76
+        },
+        {
+            "date": "2023-09-01",
+            "amount": 2810.03,
+            "changeFromLastMonth": 303.66
+        },
+        {
+            "date": "2023-10-01",
+            "amount": 3097.3,
+            "changeFromLastMonth": 287.27
+        }
+    ]
+}

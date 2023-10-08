@@ -1,0 +1,88 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "description": "A schema representing financial data for different months.",
+    "patternProperties": {
+        "^Month [0-9]+$": {
+            "type": "object",
+            "description": "Details for a specific month.",
+            "properties": {
+                "transport": {
+                    "type": "integer",
+                    "description": "Amount spent on transport."
+                },
+                "groceries": {
+                    "type": "integer",
+                    "description": "Amount spent on groceries."
+                },
+                "restaurants": {
+                    "type": "integer",
+                    "description": "Amount spent on restaurants."
+                },
+                "shopping": {
+                    "type": "integer",
+                    "description": "Amount spent on shopping."
+                },
+                "home": {
+                    "type": "integer",
+                    "description": "Amount spent on home-related expenses."
+                },
+                "transport_change": {
+                    "type": ["number", "null"],
+                    "description": "Percentage change in transport cost compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)."
+                },
+                "groceries_change": {
+                    "type": ["number", "null"],
+                    "description": "Percentage change in groceries cost compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)."
+                },
+                "restaurants_change": {
+                    "type": ["number", "null"],
+                    "description": "Percentage change in restaurant costs compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)."
+                },
+                "shopping_change": {
+                    "type": ["number", "null"],
+                    "description": "Percentage change in shopping cost compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)."
+                },
+                "home_change": {
+                    "type": ["number", "null"],
+                    "description": "Percentage change in home costs compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)."
+                },
+                "projected_transport": {
+                    "type": "number",
+                    "description": "Projected transport cost for the month. Only available if the month hasn't ended yet."
+                },
+                "projected_groceries": {
+                    "type": "number",
+                    "description": "Projected groceries cost for the month. Only available if the month hasn't ended yet."
+                },
+                "projected_restaurants": {
+                    "type": "number",
+                    "description": "Projected restaurant cost for the month. Only available if the month hasn't ended yet."
+                },
+                "projected_shopping": {
+                    "type": "number",
+                    "description": "Projected shopping cost for the month. Only available if the month hasn't ended yet."
+                },
+                "projected_transport_change": {
+                    "type": ["number", "null"],
+                    "description": "Projected percentage change in transport cost. Only available if the month hasn't ended yet."
+                },
+                "projected_groceries_change": {
+                    "type": ["number", "null"],
+                    "description": "Projected percentage change in groceries cost. Only available if the month hasn't ended yet."
+                },
+                "projected_restaurants_change": {
+                    "type": ["number", "null"],
+                    "description": "Projected percentage change in restaurant costs. Only available if the month hasn't ended yet."
+                },
+                "projected_shopping_change": {
+                    "type": ["number", "null"],
+                    "description": "Projected percentage change in shopping cost. Only available if the month hasn't ended yet."
+                }
+            },
+            "required": ["transport", "groceries", "restaurants", "shopping", "home"],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Account Data",
+    "description": "Schema for representing account data with its balance changes over time.",
+    "type": "object",
+    "properties": {
+        "account_number": {
+            "description": "A unique identifier for the account.",
+            "type": "string",
+            "pattern": "^[0-9]+$"
+        },
+        "type": {
+            "description": "The type or category of the account.",
+            "type": "string",
+            "enum": ["current", "savings"] 
+        },
+        "frequency": {
+            "description": "The frequency at which the data is recorded.",
+            "type": "string",
+            "enum": ["daily", "weekly", "monthly"] 
+        },
+        "data": {
+            "description": "An array containing the account's transactional data over time.",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "description": "The date on which the data was recorded. Format: YYYY-DD-MM.",
+                        "type": "string",
+                        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                    },
+                    "amount": {
+                        "description": "The total amount in the account on the given date.",
+                        "type": "number"
+                    },
+                    "changeFromYesterday": {
+                        "description": "The difference in the amount from the previous day.",
+                        "type": "number"
+                    },
+                    "changeFromLastWeek": {
+                        "description": "The difference in the amount from the previous week.",
+                        "type": "number"
+                    },
+                    "changeFromLastMonth": {
+                        "description": "The difference in the amount from the previous month.",
+                        "type": "number"
+                    }
+                },
+                "oneOf": [
+                    {
+                        "if": {
+                            "properties": {
+                                "frequency": {
+                                    "const": "daily"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": ["changeFromYesterday"]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "frequency": {
+                                    "const": "weekly"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": ["changeFromLastWeek"]
+                        }
+                    },
+                    {
+                        "if": {
+                            "properties": {
+                                "frequency": {
+                                    "const": "monthly"
+                                }
+                            }
+                        },
+                        "then": {
+                            "required": ["changeFromLastMonth"]
+                        }
+                    }
+                ],
+                "required": ["date", "amount"]
+            }
+        }
+    },
+    "required": ["account_number", "type", "frequency", "data"]
+}

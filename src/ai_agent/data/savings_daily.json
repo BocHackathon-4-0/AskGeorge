@@ -1,0 +1,1412 @@
+{
+    "account_number": "1234567890",
+    "type": "savings",
+    "frequency": "daily",
+    "data": [
+        {
+            "date": "2023-01-01",
+            "amount": 2518.16,
+            "changeFromYesterday": 18.16
+        },
+        {
+            "date": "2023-01-02",
+            "amount": 2552.33,
+            "changeFromYesterday": 34.17
+        },
+        {
+            "date": "2023-01-03",
+            "amount": 2579.92,
+            "changeFromYesterday": 27.59
+        },
+        {
+            "date": "2023-01-04",
+            "amount": 2600.44,
+            "changeFromYesterday": 20.52
+        },
+        {
+            "date": "2023-01-05",
+            "amount": 2622.53,
+            "changeFromYesterday": 22.09
+        },
+        {
+            "date": "2023-01-06",
+            "amount": 2661.3,
+            "changeFromYesterday": 38.77
+        },
+        {
+            "date": "2023-01-07",
+            "amount": 2680.86,
+            "changeFromYesterday": 19.56
+        },
+        {
+            "date": "2023-01-08",
+            "amount": 2722.5,
+            "changeFromYesterday": 41.64
+        },
+        {
+            "date": "2023-01-09",
+            "amount": 2762.65,
+            "changeFromYesterday": 40.15
+        },
+        {
+            "date": "2023-01-10",
+            "amount": 2787.22,
+            "changeFromYesterday": 24.57
+        },
+        {
+            "date": "2023-01-11",
+            "amount": 2807.64,
+            "changeFromYesterday": 20.42
+        },
+        {
+            "date": "2023-01-12",
+            "amount": 2838.9,
+            "changeFromYesterday": 31.26
+        },
+        {
+            "date": "2023-01-13",
+            "amount": 2859.46,
+            "changeFromYesterday": 20.56
+        },
+        {
+            "date": "2023-01-14",
+            "amount": 2884.07,
+            "changeFromYesterday": 24.61
+        },
+        {
+            "date": "2023-01-15",
+            "amount": 2914.01,
+            "changeFromYesterday": 29.94
+        },
+        {
+            "date": "2023-01-16",
+            "amount": 2953.81,
+            "changeFromYesterday": 39.8
+        },
+        {
+            "date": "2023-01-17",
+            "amount": 2994.5,
+            "changeFromYesterday": 40.69
+        },
+        {
+            "date": "2023-01-18",
+            "amount": 3028.45,
+            "changeFromYesterday": 33.95
+        },
+        {
+            "date": "2023-01-19",
+            "amount": 3053.12,
+            "changeFromYesterday": 24.67
+        },
+        {
+            "date": "2023-01-20",
+            "amount": 3083.56,
+            "changeFromYesterday": 30.44
+        },
+        {
+            "date": "2023-01-21",
+            "amount": 3111.13,
+            "changeFromYesterday": 27.57
+        },
+        {
+            "date": "2023-01-22",
+            "amount": 3136.86,
+            "changeFromYesterday": 25.73
+        },
+        {
+            "date": "2023-01-23",
+            "amount": 3166.92,
+            "changeFromYesterday": 30.06
+        },
+        {
+            "date": "2023-01-24",
+            "amount": 3194.77,
+            "changeFromYesterday": 27.84
+        },
+        {
+            "date": "2023-01-25",
+            "amount": 3215.91,
+            "changeFromYesterday": 21.14
+        },
+        {
+            "date": "2023-01-26",
+            "amount": 3252.45,
+            "changeFromYesterday": 36.54
+        },
+        {
+            "date": "2023-01-27",
+            "amount": 3281.6,
+            "changeFromYesterday": 29.15
+        },
+        {
+            "date": "2023-01-28",
+            "amount": 3319.68,
+            "changeFromYesterday": 38.08
+        },
+        {
+            "date": "2023-01-29",
+            "amount": 3341.11,
+            "changeFromYesterday": 21.42
+        },
+        {
+            "date": "2023-01-30",
+            "amount": 3370.5,
+            "changeFromYesterday": 29.39
+        },
+        {
+            "date": "2023-01-31",
+            "amount": 3401.45,
+            "changeFromYesterday": 30.95
+        },
+        {
+            "date": "2023-02-01",
+            "amount": 3422.69,
+            "changeFromYesterday": 21.24
+        },
+        {
+            "date": "2023-02-02",
+            "amount": 3457.07,
+            "changeFromYesterday": 34.38
+        },
+        {
+            "date": "2023-02-03",
+            "amount": 3491.31,
+            "changeFromYesterday": 34.24
+        },
+        {
+            "date": "2023-02-04",
+            "amount": 3519.39,
+            "changeFromYesterday": 28.09
+        },
+        {
+            "date": "2023-02-05",
+            "amount": 3552.04,
+            "changeFromYesterday": 32.65
+        },
+        {
+            "date": "2023-02-06",
+            "amount": 3577.28,
+            "changeFromYesterday": 25.24
+        },
+        {
+            "date": "2023-02-07",
+            "amount": 3604.51,
+            "changeFromYesterday": 27.23
+        },
+        {
+            "date": "2023-02-08",
+            "amount": 3646.18,
+            "changeFromYesterday": 41.67
+        },
+        {
+            "date": "2023-02-09",
+            "amount": 3679.39,
+            "changeFromYesterday": 33.21
+        },
+        {
+            "date": "2023-02-10",
+            "amount": 3703.79,
+            "changeFromYesterday": 24.41
+        },
+        {
+            "date": "2023-02-11",
+            "amount": 3729.12,
+            "changeFromYesterday": 25.33
+        },
+        {
+            "date": "2023-02-12",
+            "amount": 3762.79,
+            "changeFromYesterday": 33.67
+        },
+        {
+            "date": "2023-02-13",
+            "amount": 3780.88,
+            "changeFromYesterday": 18.09
+        },
+        {
+            "date": "2023-02-14",
+            "amount": 3798.96,
+            "changeFromYesterday": 18.08
+        },
+        {
+            "date": "2023-02-15",
+            "amount": 3831.43,
+            "changeFromYesterday": 32.47
+        },
+        {
+            "date": "2023-02-16",
+            "amount": 3864.51,
+            "changeFromYesterday": 33.08
+        },
+        {
+            "date": "2023-02-17",
+            "amount": 3896.57,
+            "changeFromYesterday": 32.06
+        },
+        {
+            "date": "2023-02-18",
+            "amount": 3928.51,
+            "changeFromYesterday": 31.94
+        },
+        {
+            "date": "2023-02-19",
+            "amount": 3953.16,
+            "changeFromYesterday": 24.65
+        },
+        {
+            "date": "2023-02-20",
+            "amount": 3976.55,
+            "changeFromYesterday": 23.4
+        },
+        {
+            "date": "2023-02-21",
+            "amount": 4004.74,
+            "changeFromYesterday": 28.18
+        },
+        {
+            "date": "2023-02-22",
+            "amount": 4032.86,
+            "changeFromYesterday": 28.12
+        },
+        {
+            "date": "2023-02-23",
+            "amount": 4057.68,
+            "changeFromYesterday": 24.82
+        },
+        {
+            "date": "2023-02-24",
+            "amount": 4094.31,
+            "changeFromYesterday": 36.63
+        },
+        {
+            "date": "2023-02-25",
+            "amount": 4113.29,
+            "changeFromYesterday": 18.98
+        },
+        {
+            "date": "2023-02-26",
+            "amount": 4138.25,
+            "changeFromYesterday": 24.96
+        },
+        {
+            "date": "2023-02-27",
+            "amount": 4168.26,
+            "changeFromYesterday": 30.01
+        },
+        {
+            "date": "2023-02-28",
+            "amount": 4204.27,
+            "changeFromYesterday": 36.01
+        },
+        {
+            "date": "2023-03-01",
+            "amount": 4241.39,
+            "changeFromYesterday": 37.12
+        },
+        {
+            "date": "2023-03-02",
+            "amount": 4277.18,
+            "changeFromYesterday": 35.79
+        },
+        {
+            "date": "2023-03-03",
+            "amount": 4301.65,
+            "changeFromYesterday": 24.47
+        },
+        {
+            "date": "2023-03-04",
+            "amount": 4320.08,
+            "changeFromYesterday": 18.43
+        },
+        {
+            "date": "2023-03-05",
+            "amount": 4347.11,
+            "changeFromYesterday": 27.03
+        },
+        {
+            "date": "2023-03-06",
+            "amount": 4368.01,
+            "changeFromYesterday": 20.9
+        },
+        {
+            "date": "2023-03-07",
+            "amount": 4394.36,
+            "changeFromYesterday": 26.36
+        },
+        {
+            "date": "2023-03-08",
+            "amount": 4430.24,
+            "changeFromYesterday": 35.87
+        },
+        {
+            "date": "2023-03-09",
+            "amount": 4459.43,
+            "changeFromYesterday": 29.19
+        },
+        {
+            "date": "2023-03-10",
+            "amount": 4490.66,
+            "changeFromYesterday": 31.23
+        },
+        {
+            "date": "2023-03-11",
+            "amount": 4526.62,
+            "changeFromYesterday": 35.96
+        },
+        {
+            "date": "2023-03-12",
+            "amount": 4561.53,
+            "changeFromYesterday": 34.91
+        },
+        {
+            "date": "2023-03-13",
+            "amount": 4583.31,
+            "changeFromYesterday": 21.78
+        },
+        {
+            "date": "2023-03-14",
+            "amount": 4604.15,
+            "changeFromYesterday": 20.84
+        },
+        {
+            "date": "2023-03-15",
+            "amount": 4623.9,
+            "changeFromYesterday": 19.75
+        },
+        {
+            "date": "2023-03-16",
+            "amount": 4662.36,
+            "changeFromYesterday": 38.46
+        },
+        {
+            "date": "2023-03-17",
+            "amount": 4689.01,
+            "changeFromYesterday": 26.65
+        },
+        {
+            "date": "2023-03-18",
+            "amount": 4730.05,
+            "changeFromYesterday": 41.04
+        },
+        {
+            "date": "2023-03-19",
+            "amount": 4770.67,
+            "changeFromYesterday": 40.62
+        },
+        {
+            "date": "2023-03-20",
+            "amount": 4811.63,
+            "changeFromYesterday": 40.96
+        },
+        {
+            "date": "2023-03-21",
+            "amount": 4833.51,
+            "changeFromYesterday": 21.88
+        },
+        {
+            "date": "2023-03-22",
+            "amount": 4870.86,
+            "changeFromYesterday": 37.35
+        },
+        {
+            "date": "2023-03-23",
+            "amount": 4890.03,
+            "changeFromYesterday": 19.17
+        },
+        {
+            "date": "2023-03-24",
+            "amount": 4925.03,
+            "changeFromYesterday": 34.99
+        },
+        {
+            "date": "2023-03-25",
+            "amount": 4943.14,
+            "changeFromYesterday": 18.11
+        },
+        {
+            "date": "2023-03-26",
+            "amount": 4976.34,
+            "changeFromYesterday": 33.2
+        },
+        {
+            "date": "2023-03-27",
+            "amount": 5006.25,
+            "changeFromYesterday": 29.91
+        },
+        {
+            "date": "2023-03-28",
+            "amount": 5029.55,
+            "changeFromYesterday": 23.3
+        },
+        {
+            "date": "2023-03-29",
+            "amount": 5059.22,
+            "changeFromYesterday": 29.66
+        },
+        {
+            "date": "2023-03-30",
+            "amount": 5086.24,
+            "changeFromYesterday": 27.02
+        },
+        {
+            "date": "2023-03-31",
+            "amount": 5117.78,
+            "changeFromYesterday": 31.55
+        },
+        {
+            "date": "2023-04-01",
+            "amount": 5155.14,
+            "changeFromYesterday": 37.36
+        },
+        {
+            "date": "2023-04-02",
+            "amount": 5180.93,
+            "changeFromYesterday": 25.8
+        },
+        {
+            "date": "2023-04-03",
+            "amount": 5213.55,
+            "changeFromYesterday": 32.62
+        },
+        {
+            "date": "2023-04-04",
+            "amount": 5247.58,
+            "changeFromYesterday": 34.03
+        },
+        {
+            "date": "2023-04-05",
+            "amount": 5272.24,
+            "changeFromYesterday": 24.66
+        },
+        {
+            "date": "2023-04-06",
+            "amount": 5306.68,
+            "changeFromYesterday": 34.44
+        },
+        {
+            "date": "2023-04-07",
+            "amount": 5339.6,
+            "changeFromYesterday": 32.92
+        },
+        {
+            "date": "2023-04-08",
+            "amount": 5361.42,
+            "changeFromYesterday": 21.82
+        },
+        {
+            "date": "2023-04-09",
+            "amount": 5392.64,
+            "changeFromYesterday": 31.22
+        },
+        {
+            "date": "2023-04-10",
+            "amount": 5418.5,
+            "changeFromYesterday": 25.86
+        },
+        {
+            "date": "2023-04-11",
+            "amount": 5449.03,
+            "changeFromYesterday": 30.53
+        },
+        {
+            "date": "2023-04-12",
+            "amount": 5480.98,
+            "changeFromYesterday": 31.95
+        },
+        {
+            "date": "2023-04-13",
+            "amount": 5521.3,
+            "changeFromYesterday": 40.32
+        },
+        {
+            "date": "2023-04-14",
+            "amount": 5545.37,
+            "changeFromYesterday": 24.07
+        },
+        {
+            "date": "2023-04-15",
+            "amount": 5573.86,
+            "changeFromYesterday": 28.49
+        },
+        {
+            "date": "2023-04-16",
+            "amount": 5605.58,
+            "changeFromYesterday": 31.73
+        },
+        {
+            "date": "2023-04-17",
+            "amount": 5635.2,
+            "changeFromYesterday": 29.61
+        },
+        {
+            "date": "2023-04-18",
+            "amount": 5676.59,
+            "changeFromYesterday": 41.4
+        },
+        {
+            "date": "2023-04-19",
+            "amount": 5711.37,
+            "changeFromYesterday": 34.78
+        },
+        {
+            "date": "2023-04-20",
+            "amount": 5730.95,
+            "changeFromYesterday": 19.58
+        },
+        {
+            "date": "2023-04-21",
+            "amount": 5758.38,
+            "changeFromYesterday": 27.43
+        },
+        {
+            "date": "2023-04-22",
+            "amount": 5788.8,
+            "changeFromYesterday": 30.43
+        },
+        {
+            "date": "2023-04-23",
+            "amount": 5820.33,
+            "changeFromYesterday": 31.53
+        },
+        {
+            "date": "2023-04-24",
+            "amount": 5843.18,
+            "changeFromYesterday": 22.85
+        },
+        {
+            "date": "2023-04-25",
+            "amount": 5871.2,
+            "changeFromYesterday": 28.02
+        },
+        {
+            "date": "2023-04-26",
+            "amount": 5891.29,
+            "changeFromYesterday": 20.09
+        },
+        {
+            "date": "2023-04-27",
+            "amount": 5931.43,
+            "changeFromYesterday": 40.14
+        },
+        {
+            "date": "2023-04-28",
+            "amount": 5950.21,
+            "changeFromYesterday": 18.78
+        },
+        {
+            "date": "2023-04-29",
+            "amount": 5975.79,
+            "changeFromYesterday": 25.58
+        },
+        {
+            "date": "2023-04-30",
+            "amount": 5997.95,
+            "changeFromYesterday": 22.17
+        },
+        {
+            "date": "2023-05-01",
+            "amount": 6016.09,
+            "changeFromYesterday": 18.14
+        },
+        {
+            "date": "2023-05-02",
+            "amount": 6034.13,
+            "changeFromYesterday": 18.04
+        },
+        {
+            "date": "2023-05-03",
+            "amount": 6057.26,
+            "changeFromYesterday": 23.14
+        },
+        {
+            "date": "2023-05-04",
+            "amount": 6093.65,
+            "changeFromYesterday": 36.39
+        },
+        {
+            "date": "2023-05-05",
+            "amount": 6122.25,
+            "changeFromYesterday": 28.6
+        },
+        {
+            "date": "2023-05-06",
+            "amount": 6161.91,
+            "changeFromYesterday": 39.66
+        },
+        {
+            "date": "2023-05-07",
+            "amount": 6187.23,
+            "changeFromYesterday": 25.32
+        },
+        {
+            "date": "2023-05-08",
+            "amount": 6222.2,
+            "changeFromYesterday": 34.97
+        },
+        {
+            "date": "2023-05-09",
+            "amount": 6248.97,
+            "changeFromYesterday": 26.77
+        },
+        {
+            "date": "2023-05-10",
+            "amount": 6275.57,
+            "changeFromYesterday": 26.6
+        },
+        {
+            "date": "2023-05-11",
+            "amount": 6300.83,
+            "changeFromYesterday": 25.26
+        },
+        {
+            "date": "2023-05-12",
+            "amount": 6332.02,
+            "changeFromYesterday": 31.19
+        },
+        {
+            "date": "2023-05-13",
+            "amount": 6356.32,
+            "changeFromYesterday": 24.3
+        },
+        {
+            "date": "2023-05-14",
+            "amount": 6386.16,
+            "changeFromYesterday": 29.84
+        },
+        {
+            "date": "2023-05-15",
+            "amount": 6407.87,
+            "changeFromYesterday": 21.71
+        },
+        {
+            "date": "2023-05-16",
+            "amount": 6444.69,
+            "changeFromYesterday": 36.82
+        },
+        {
+            "date": "2023-05-17",
+            "amount": 6465.16,
+            "changeFromYesterday": 20.47
+        },
+        {
+            "date": "2023-05-18",
+            "amount": 6499.74,
+            "changeFromYesterday": 34.58
+        },
+        {
+            "date": "2023-05-19",
+            "amount": 6525.06,
+            "changeFromYesterday": 25.32
+        },
+        {
+            "date": "2023-05-20",
+            "amount": 6566.86,
+            "changeFromYesterday": 41.8
+        },
+        {
+            "date": "2023-05-21",
+            "amount": 6606.79,
+            "changeFromYesterday": 39.93
+        },
+        {
+            "date": "2023-05-22",
+            "amount": 6628.67,
+            "changeFromYesterday": 21.89
+        },
+        {
+            "date": "2023-05-23",
+            "amount": 6648.43,
+            "changeFromYesterday": 19.75
+        },
+        {
+            "date": "2023-05-24",
+            "amount": 6680.14,
+            "changeFromYesterday": 31.71
+        },
+        {
+            "date": "2023-05-25",
+            "amount": 6707.85,
+            "changeFromYesterday": 27.71
+        },
+        {
+            "date": "2023-05-26",
+            "amount": 6726.91,
+            "changeFromYesterday": 19.06
+        },
+        {
+            "date": "2023-05-27",
+            "amount": 6764.66,
+            "changeFromYesterday": 37.75
+        },
+        {
+            "date": "2023-05-28",
+            "amount": 6804.25,
+            "changeFromYesterday": 39.59
+        },
+        {
+            "date": "2023-05-29",
+            "amount": 6845.7,
+            "changeFromYesterday": 41.45
+        },
+        {
+            "date": "2023-05-30",
+            "amount": 6864.94,
+            "changeFromYesterday": 19.24
+        },
+        {
+            "date": "2023-05-31",
+            "amount": 6896.67,
+            "changeFromYesterday": 31.72
+        },
+        {
+            "date": "2023-06-01",
+            "amount": 6924.24,
+            "changeFromYesterday": 27.57
+        },
+        {
+            "date": "2023-06-02",
+            "amount": 6956.9,
+            "changeFromYesterday": 32.67
+        },
+        {
+            "date": "2023-06-03",
+            "amount": 6993.53,
+            "changeFromYesterday": 36.63
+        },
+        {
+            "date": "2023-06-04",
+            "amount": 7020.11,
+            "changeFromYesterday": 26.58
+        },
+        {
+            "date": "2023-06-05",
+            "amount": 7049.4,
+            "changeFromYesterday": 29.29
+        },
+        {
+            "date": "2023-06-06",
+            "amount": 7080.36,
+            "changeFromYesterday": 30.96
+        },
+        {
+            "date": "2023-06-07",
+            "amount": 7103.67,
+            "changeFromYesterday": 23.3
+        },
+        {
+            "date": "2023-06-08",
+            "amount": 7145.4,
+            "changeFromYesterday": 41.74
+        },
+        {
+            "date": "2023-06-09",
+            "amount": 7179.6,
+            "changeFromYesterday": 34.2
+        },
+        {
+            "date": "2023-06-10",
+            "amount": 7207.41,
+            "changeFromYesterday": 27.81
+        },
+        {
+            "date": "2023-06-11",
+            "amount": 7240.33,
+            "changeFromYesterday": 32.92
+        },
+        {
+            "date": "2023-06-12",
+            "amount": 7263.75,
+            "changeFromYesterday": 23.42
+        },
+        {
+            "date": "2023-06-13",
+            "amount": 7300.16,
+            "changeFromYesterday": 36.41
+        },
+        {
+            "date": "2023-06-14",
+            "amount": 7330.31,
+            "changeFromYesterday": 30.15
+        },
+        {
+            "date": "2023-06-15",
+            "amount": 7362.37,
+            "changeFromYesterday": 32.06
+        },
+        {
+            "date": "2023-06-16",
+            "amount": 7381.33,
+            "changeFromYesterday": 18.95
+        },
+        {
+            "date": "2023-06-17",
+            "amount": 7400.11,
+            "changeFromYesterday": 18.78
+        },
+        {
+            "date": "2023-06-18",
+            "amount": 7434.96,
+            "changeFromYesterday": 34.85
+        },
+        {
+            "date": "2023-06-19",
+            "amount": 7458.69,
+            "changeFromYesterday": 23.73
+        },
+        {
+            "date": "2023-06-20",
+            "amount": 7491.1,
+            "changeFromYesterday": 32.4
+        },
+        {
+            "date": "2023-06-21",
+            "amount": 7530.74,
+            "changeFromYesterday": 39.64
+        },
+        {
+            "date": "2023-06-22",
+            "amount": 7552.11,
+            "changeFromYesterday": 21.37
+        },
+        {
+            "date": "2023-06-23",
+            "amount": 7585.13,
+            "changeFromYesterday": 33.02
+        },
+        {
+            "date": "2023-06-24",
+            "amount": 7608.57,
+            "changeFromYesterday": 23.44
+        },
+        {
+            "date": "2023-06-25",
+            "amount": 7647.66,
+            "changeFromYesterday": 39.08
+        },
+        {
+            "date": "2023-06-26",
+            "amount": 7684.73,
+            "changeFromYesterday": 37.07
+        },
+        {
+            "date": "2023-06-27",
+            "amount": 7713.95,
+            "changeFromYesterday": 29.22
+        },
+        {
+            "date": "2023-06-28",
+            "amount": 7741.92,
+            "changeFromYesterday": 27.98
+        },
+        {
+            "date": "2023-06-29",
+            "amount": 7776.94,
+            "changeFromYesterday": 35.02
+        },
+        {
+            "date": "2023-06-30",
+            "amount": 7806.46,
+            "changeFromYesterday": 29.52
+        },
+        {
+            "date": "2023-07-01",
+            "amount": 7845.09,
+            "changeFromYesterday": 38.63
+        },
+        {
+            "date": "2023-07-02",
+            "amount": 7864.71,
+            "changeFromYesterday": 19.62
+        },
+        {
+            "date": "2023-07-03",
+            "amount": 7887.13,
+            "changeFromYesterday": 22.42
+        },
+        {
+            "date": "2023-07-04",
+            "amount": 7916.45,
+            "changeFromYesterday": 29.32
+        },
+        {
+            "date": "2023-07-05",
+            "amount": 7952.01,
+            "changeFromYesterday": 35.56
+        },
+        {
+            "date": "2023-07-06",
+            "amount": 7987.1,
+            "changeFromYesterday": 35.1
+        },
+        {
+            "date": "2023-07-07",
+            "amount": 8017.14,
+            "changeFromYesterday": 30.03
+        },
+        {
+            "date": "2023-07-08",
+            "amount": 8050.89,
+            "changeFromYesterday": 33.76
+        },
+        {
+            "date": "2023-07-09",
+            "amount": 8077.36,
+            "changeFromYesterday": 26.47
+        },
+        {
+            "date": "2023-07-10",
+            "amount": 8114.96,
+            "changeFromYesterday": 37.59
+        },
+        {
+            "date": "2023-07-11",
+            "amount": 8149.3,
+            "changeFromYesterday": 34.34
+        },
+        {
+            "date": "2023-07-12",
+            "amount": 8177.05,
+            "changeFromYesterday": 27.75
+        },
+        {
+            "date": "2023-07-13",
+            "amount": 8204.54,
+            "changeFromYesterday": 27.49
+        },
+        {
+            "date": "2023-07-14",
+            "amount": 8238.55,
+            "changeFromYesterday": 34.02
+        },
+        {
+            "date": "2023-07-15",
+            "amount": 8264.03,
+            "changeFromYesterday": 25.48
+        },
+        {
+            "date": "2023-07-16",
+            "amount": 8293.34,
+            "changeFromYesterday": 29.31
+        },
+        {
+            "date": "2023-07-17",
+            "amount": 8333.17,
+            "changeFromYesterday": 39.83
+        },
+        {
+            "date": "2023-07-18",
+            "amount": 8358.09,
+            "changeFromYesterday": 24.92
+        },
+        {
+            "date": "2023-07-19",
+            "amount": 8395.64,
+            "changeFromYesterday": 37.55
+        },
+        {
+            "date": "2023-07-20",
+            "amount": 8420.78,
+            "changeFromYesterday": 25.15
+        },
+        {
+            "date": "2023-07-21",
+            "amount": 8447.86,
+            "changeFromYesterday": 27.08
+        },
+        {
+            "date": "2023-07-22",
+            "amount": 8468.52,
+            "changeFromYesterday": 20.65
+        },
+        {
+            "date": "2023-07-23",
+            "amount": 8498.7,
+            "changeFromYesterday": 30.18
+        },
+        {
+            "date": "2023-07-24",
+            "amount": 8527.65,
+            "changeFromYesterday": 28.95
+        },
+        {
+            "date": "2023-07-25",
+            "amount": 8556.39,
+            "changeFromYesterday": 28.75
+        },
+        {
+            "date": "2023-07-26",
+            "amount": 8575.53,
+            "changeFromYesterday": 19.13
+        },
+        {
+            "date": "2023-07-27",
+            "amount": 8616.27,
+            "changeFromYesterday": 40.75
+        },
+        {
+            "date": "2023-07-28",
+            "amount": 8651.32,
+            "changeFromYesterday": 35.05
+        },
+        {
+            "date": "2023-07-29",
+            "amount": 8670.03,
+            "changeFromYesterday": 18.71
+        },
+        {
+            "date": "2023-07-30",
+            "amount": 8693.33,
+            "changeFromYesterday": 23.3
+        },
+        {
+            "date": "2023-07-31",
+            "amount": 8712.06,
+            "changeFromYesterday": 18.73
+        },
+        {
+            "date": "2023-08-01",
+            "amount": 8741.37,
+            "changeFromYesterday": 29.31
+        },
+        {
+            "date": "2023-08-02",
+            "amount": 8764.35,
+            "changeFromYesterday": 22.98
+        },
+        {
+            "date": "2023-08-03",
+            "amount": 8795.23,
+            "changeFromYesterday": 30.88
+        },
+        {
+            "date": "2023-08-04",
+            "amount": 8819.02,
+            "changeFromYesterday": 23.79
+        },
+        {
+            "date": "2023-08-05",
+            "amount": 8848.68,
+            "changeFromYesterday": 29.66
+        },
+        {
+            "date": "2023-08-06",
+            "amount": 8888.01,
+            "changeFromYesterday": 39.33
+        },
+        {
+            "date": "2023-08-07",
+            "amount": 8918.19,
+            "changeFromYesterday": 30.18
+        },
+        {
+            "date": "2023-08-08",
+            "amount": 8953.58,
+            "changeFromYesterday": 35.38
+        },
+        {
+            "date": "2023-08-09",
+            "amount": 8990.42,
+            "changeFromYesterday": 36.84
+        },
+        {
+            "date": "2023-08-10",
+            "amount": 9024.87,
+            "changeFromYesterday": 34.45
+        },
+        {
+            "date": "2023-08-11",
+            "amount": 9048.46,
+            "changeFromYesterday": 23.59
+        },
+        {
+            "date": "2023-08-12",
+            "amount": 9066.89,
+            "changeFromYesterday": 18.43
+        },
+        {
+            "date": "2023-08-13",
+            "amount": 9086.73,
+            "changeFromYesterday": 19.84
+        },
+        {
+            "date": "2023-08-14",
+            "amount": 9125.47,
+            "changeFromYesterday": 38.75
+        },
+        {
+            "date": "2023-08-15",
+            "amount": 9149.16,
+            "changeFromYesterday": 23.69
+        },
+        {
+            "date": "2023-08-16",
+            "amount": 9180.3,
+            "changeFromYesterday": 31.14
+        },
+        {
+            "date": "2023-08-17",
+            "amount": 9220.59,
+            "changeFromYesterday": 40.28
+        },
+        {
+            "date": "2023-08-18",
+            "amount": 9242.97,
+            "changeFromYesterday": 22.38
+        },
+        {
+            "date": "2023-08-19",
+            "amount": 9278.22,
+            "changeFromYesterday": 35.25
+        },
+        {
+            "date": "2023-08-20",
+            "amount": 9315.46,
+            "changeFromYesterday": 37.24
+        },
+        {
+            "date": "2023-08-21",
+            "amount": 9352.89,
+            "changeFromYesterday": 37.43
+        },
+        {
+            "date": "2023-08-22",
+            "amount": 9390.7,
+            "changeFromYesterday": 37.82
+        },
+        {
+            "date": "2023-08-23",
+            "amount": 9426.94,
+            "changeFromYesterday": 36.24
+        },
+        {
+            "date": "2023-08-24",
+            "amount": 9468.05,
+            "changeFromYesterday": 41.11
+        },
+        {
+            "date": "2023-08-25",
+            "amount": 9500.49,
+            "changeFromYesterday": 32.44
+        },
+        {
+            "date": "2023-08-26",
+            "amount": 9540.69,
+            "changeFromYesterday": 40.2
+        },
+        {
+            "date": "2023-08-27",
+            "amount": 9566.29,
+            "changeFromYesterday": 25.6
+        },
+        {
+            "date": "2023-08-28",
+            "amount": 9603.17,
+            "changeFromYesterday": 36.88
+        },
+        {
+            "date": "2023-08-29",
+            "amount": 9643.03,
+            "changeFromYesterday": 39.87
+        },
+        {
+            "date": "2023-08-30",
+            "amount": 9667.06,
+            "changeFromYesterday": 24.03
+        },
+        {
+            "date": "2023-08-31",
+            "amount": 9707.87,
+            "changeFromYesterday": 40.81
+        },
+        {
+            "date": "2023-09-01",
+            "amount": 9732.43,
+            "changeFromYesterday": 24.55
+        },
+        {
+            "date": "2023-09-02",
+            "amount": 9764.4,
+            "changeFromYesterday": 31.97
+        },
+        {
+            "date": "2023-09-03",
+            "amount": 9788.78,
+            "changeFromYesterday": 24.38
+        },
+        {
+            "date": "2023-09-04",
+            "amount": 9830.61,
+            "changeFromYesterday": 41.83
+        },
+        {
+            "date": "2023-09-05",
+            "amount": 9862.71,
+            "changeFromYesterday": 32.1
+        },
+        {
+            "date": "2023-09-06",
+            "amount": 9893.31,
+            "changeFromYesterday": 30.6
+        },
+        {
+            "date": "2023-09-07",
+            "amount": 9918.95,
+            "changeFromYesterday": 25.64
+        },
+        {
+            "date": "2023-09-08",
+            "amount": 9957.36,
+            "changeFromYesterday": 38.41
+        },
+        {
+            "date": "2023-09-09",
+            "amount": 9982.2,
+            "changeFromYesterday": 24.84
+        },
+        {
+            "date": "2023-09-10",
+            "amount": 10014.16,
+            "changeFromYesterday": 31.96
+        },
+        {
+            "date": "2023-09-11",
+            "amount": 10032.24,
+            "changeFromYesterday": 18.08
+        },
+        {
+            "date": "2023-09-12",
+            "amount": 10050.31,
+            "changeFromYesterday": 18.06
+        },
+        {
+            "date": "2023-09-13",
+            "amount": 10082.74,
+            "changeFromYesterday": 32.43
+        },
+        {
+            "date": "2023-09-14",
+            "amount": 10117.62,
+            "changeFromYesterday": 34.88
+        },
+        {
+            "date": "2023-09-15",
+            "amount": 10139.45,
+            "changeFromYesterday": 21.83
+        },
+        {
+            "date": "2023-09-16",
+            "amount": 10171.04,
+            "changeFromYesterday": 31.59
+        },
+        {
+            "date": "2023-09-17",
+            "amount": 10201.54,
+            "changeFromYesterday": 30.5
+        },
+        {
+            "date": "2023-09-18",
+            "amount": 10227.32,
+            "changeFromYesterday": 25.77
+        },
+        {
+            "date": "2023-09-19",
+            "amount": 10251.3,
+            "changeFromYesterday": 23.98
+        },
+        {
+            "date": "2023-09-20",
+            "amount": 10270.38,
+            "changeFromYesterday": 19.08
+        },
+        {
+            "date": "2023-09-21",
+            "amount": 10307.09,
+            "changeFromYesterday": 36.71
+        },
+        {
+            "date": "2023-09-22",
+            "amount": 10347.91,
+            "changeFromYesterday": 40.82
+        },
+        {
+            "date": "2023-09-23",
+            "amount": 10368.0,
+            "changeFromYesterday": 20.09
+        },
+        {
+            "date": "2023-09-24",
+            "amount": 10397.38,
+            "changeFromYesterday": 29.38
+        },
+        {
+            "date": "2023-09-25",
+            "amount": 10423.74,
+            "changeFromYesterday": 26.37
+        },
+        {
+            "date": "2023-09-26",
+            "amount": 10445.98,
+            "changeFromYesterday": 22.24
+        },
+        {
+            "date": "2023-09-27",
+            "amount": 10464.38,
+            "changeFromYesterday": 18.4
+        },
+        {
+            "date": "2023-09-28",
+            "amount": 10486.18,
+            "changeFromYesterday": 21.8
+        },
+        {
+            "date": "2023-09-29",
+            "amount": 10506.48,
+            "changeFromYesterday": 20.3
+        },
+        {
+            "date": "2023-09-30",
+            "amount": 10541.08,
+            "changeFromYesterday": 34.59
+        },
+        {
+            "date": "2023-10-01",
+            "amount": 10569.8,
+            "changeFromYesterday": 28.72
+        },
+        {
+            "date": "2023-10-02",
+            "amount": 10609.75,
+            "changeFromYesterday": 39.96
+        },
+        {
+            "date": "2023-10-03",
+            "amount": 10635.08,
+            "changeFromYesterday": 25.32
+        },
+        {
+            "date": "2023-10-04",
+            "amount": 10654.78,
+            "changeFromYesterday": 19.7
+        },
+        {
+            "date": "2023-10-05",
+            "amount": 10688.54,
+            "changeFromYesterday": 33.76
+        },
+        {
+            "date": "2023-10-06",
+            "amount": 10724.2,
+            "changeFromYesterday": 35.66
+        },
+        {
+            "date": "2023-10-07",
+            "amount": 10759.19,
+            "changeFromYesterday": 34.99
+        },
+        {
+            "date": "2023-10-08",
+            "amount": 10791.55,
+            "changeFromYesterday": 32.36
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "description": "A schema representing financial data (spending, earning / making money) for different months, where the last month has both the running total and projected.",
+    "patternProperties": {
+      "^Month [0-9]+$": {
+        "type": "object",
+        "description": "Details for a specific month.",
+        "properties": {
+          "moneyMade": {
+            "type": "integer",
+            "description": "Total amount of money earned."
+          },
+          "moneySpent": {
+            "type": "integer",
+            "description": "Total amount of money spent."
+          },
+          "leftoverMoney": {
+            "type": "integer",
+            "description": "Remaining money after expenses."
+          },
+          "moneyMade_change_pct": {
+            "type": ["number", "null"],
+            "description": "Percentage change in the money made compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to)"
+          },
+          "moneySpent_change_pct": {
+            "type": ["number", "null"],
+            "description": "Percentage change in the money spent compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to"
+          },
+          "leftoverMoney_change_pct": {
+            "type": ["number", "null"],
+            "description": "Percentage change in the leftover money compared to the previous month. Not available in the running total of the month (but it is in the projected), or in the first month (since there's no month to compare it to"
+          },
+          "projected_moneySpent": {
+            "type": "number",
+            "description": "Projected spending for the month. Only available if the month hasn't ended yet"
+          },
+          "projected_leftoverMoney": {
+            "type": "number",
+            "description": "Projected remaining money after projected expenses. Only available if the month hasn't ended yet"
+          },
+          "proj_moneySpent_change_pct": {
+            "type": ["number", "null"],
+            "description": "Percentage change in the projected money spent compared to the previous month. Only available if the month hasn't ended yet"
+          },
+          "proj_leftoverMoney_change_pct": {
+            "type": ["number", "null"],
+            "description": "Percentage change in the projected leftover money compared to the previous month. Only available if the month hasn't ended yet"
+          }
+        },
+        "required": ["moneyMade", "moneySpent", "leftoverMoney"],
+        "additionalProperties": false
+      }
+    },
+    "additionalProperties": false
+  }
+  

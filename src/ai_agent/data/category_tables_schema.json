@@ -1,0 +1,93 @@
+{
+    "categories": {
+        "type": "object",
+        "description": "A categorization of various monthly expenses.",
+        "properties": {
+            "transport": {
+                "type": "object",
+                "description": "Monthly transport-related expenses.",
+                "patternProperties": {
+                    "^(?!Total$).*": {
+                        "type": "number",
+                        "description": "Value of the specific transport-related expense."
+                    }
+                },
+                "properties": {
+                    "Total": {
+                        "type": "number",
+                        "description": "Total value of all transport-related expenses for the month."
+                    }
+                },
+                "required": ["Total"]
+            },
+            "groceries": {
+                "type": "object",
+                "description": "Monthly groceries-related expenses.",
+                "patternProperties": {
+                    "^(?!Total$).*": {
+                        "type": "number",
+                        "description": "Value of the specific grocery-related expense."
+                    }
+                },
+                "properties": {
+                    "Total": {
+                        "type": "number",
+                        "description": "Total value of all grocery-related expenses for the month."
+                    }
+                },
+                "required": ["Total"]
+            },
+            "restaurants": {
+                "type": "object",
+                "description": "Monthly restaurant-related expenses.",
+                "patternProperties": {
+                    "^(?!Total$).*": {
+                        "type": "number",
+                        "description": "Value of the specific restaurant-related expense."
+                    }
+                },
+                "properties": {
+                    "Total": {
+                        "type": "number",
+                        "description": "Total value of all restaurant-related expenses for the month."
+                    }
+                },
+                "required": ["Total"]
+            },
+            "shopping": {
+                "type": "object",
+                "description": "Monthly shopping-related expenses.",
+                "patternProperties": {
+                    "^(?!Total$).*": {
+                        "type": "number",
+                        "description": "Value of the specific shopping-related expense."
+                    }
+                },
+                "properties": {
+                    "Total": {
+                        "type": "number",
+                        "description": "Total value of all shopping-related expenses for the month."
+                    }
+                },
+                "required": ["Total"]
+            },
+            "home": {
+                "type": "object",
+                "description": "Monthly home-related expenses such as rent and utilities.",
+                "patternProperties": {
+                    "^(?!Total$).*": {
+                        "type": "number",
+                        "description": "Value of the specific home-related expense."
+                    }
+                },
+                "properties": {
+                    "Total": {
+                        "type": "number",
+                        "description": "Total value of all home-related expenses for the month."
+                    }
+                },
+                "required": ["Total"]
+            }
+        }
+    }
+}
