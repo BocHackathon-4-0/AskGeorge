@@ -1,5 +1,7 @@
 from flask import Flask
 from flask import request
+from flask_cors import CORS
+
 from util import initialize_indices, get_balance_index, get_spending_index
 
 from llama_index.agent import OpenAIAgent
@@ -10,6 +12,7 @@ from llama_index.tools import QueryEngineTool, ToolMetadata
 from tools import add_tool, multiply_tool
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
@@ -28,7 +31,7 @@ def query_index():
     # build query engine
     balance_engine = balance_index.as_query_engine(similarity_top_k=3)
     spending_engine = spending_index.as_query_engine(similarity_top_k=3)
-    
+
     query_engine_tools = [
         QueryEngineTool(
             query_engine=balance_engine,
