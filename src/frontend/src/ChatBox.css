@@ -40,6 +40,18 @@
     max-width: 60%;  /* Ensuring chat bubbles don't take the entire width */
     display: inline-block;
   }
+
+  .message p {
+    margin: 0;
+  }
+  /* Additional style for images within the chatbox */
+    .message img {
+        max-width: 100%;  /* Ensures images don't exceed the width of the message bubble */
+        max-height: 300px;  /* Set a maximum height for images so they don't take up too much vertical space */
+        display: block;  /* Display images as block-level elements */
+        margin: 0 auto;  /* Center images horizontally within the message bubble */
+    }
+
   
   .message.you {
     background-color: #e6f7ff;

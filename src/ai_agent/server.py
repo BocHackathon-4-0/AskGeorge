@@ -1,14 +1,36 @@
 from flask import Flask
 from flask import request
+from flask_cors import CORS
+
 from util import initialize_indices, get_balance_index, get_spending_index
 
-from llama_index.agent import ReActAgent
+from llama_index.agent import OpenAIAgent
 from llama_index.llms import OpenAI
-
 
 from llama_index.tools import QueryEngineTool, ToolMetadata
 
+from tools import add_tool, multiply_tool
+
+import openai
+import logging
+
+# 1. Configure the logging module:
+
+# Create a file handler for logging
+file_handler = logging.FileHandler("openai_debug.log")
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+file_handler.setFormatter(formatter)
+
+# Get the logger for "openai"
+logger = logging.getLogger("openai")
+logger.setLevel(logging.DEBUG)  # Set logger to DEBUG level
+logger.addHandler(file_handler)
+
+# 2. Set `openai.log` to "debug":
+openai.log = "debug"
+
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
@@ -18,18 +40,16 @@ def home():
 def query_index():
     balance_index = get_balance_index()
     spending_index = get_spending_index()
-    print(balance_index)
-    print(spending_index)
-    input()
+
     
     query_text = request.args.get("text", None)
     if query_text is None:
         return "No text found, please include a ?text=blah parameter in the URL", 400
 
     # build query engine
-    balance_engine = balance_index.as_query_engine(similarity_top_k=3)
-    spending_engine = spending_index.as_query_engine(similarity_top_k=3)
-    
+    balance_engine = balance_index.as_query_engine(similarity_top_k=1)
+    spending_engine = spending_index.as_query_engine(similarity_top_k=1)
+
     query_engine_tools = [
         QueryEngineTool(
             query_engine=balance_engine,
@@ -50,9 +70,13 @@ def query_index():
     ]
 
     # build agent
-
     llm = OpenAI(model="gpt-4")
-    agent = ReActAgent.from_tools(query_engine_tools, llm=llm, verbose=True)
+    agent = OpenAIAgent.from_tools(
+            [multiply_tool, add_tool] + query_engine_tools, 
+            llm=llm, 
+            verbose=True,
+            system_prompt="You are AskGeorge, an expert personal financial helper with context about my spending (i.e. which categories I spend in, what stores I spend in) as well as my earnings and account balances. The date today is 2023-10-08 (8th of October, 2023). This corresponds to Month 10 in the data sources that you will consult, so if I ask you about last month, I'm referring to month 9. If I ask you how much money I have all together, add the latest Month 10 money from my current account to my savings account. You are almost always talking about money or percentage changes, the currency is euros, so when you format numbers make sure to add the currency sign and if it's a decimal number make it 2 decimal points. Be conversational in your responses. For example, when asked 'How much has my savings account grown in the last 3 months', you will respond along the lines of 'Your savings account grew X euros, from Y to Z, which is a A% increase. Well done!'"
+    )
     response = agent.chat(query_text)
     return str(response), 200
 

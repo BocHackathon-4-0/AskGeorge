@@ -12,6 +12,9 @@ balance_index = None
 spending_index = None
 full_index = None
 
+filename_fn = lambda filename: {'file_name': filename}
+
+
 def get_balance_index():
     return balance_index
 
@@ -44,13 +47,19 @@ def initialize_indices():
     if not index_loaded:
         # load data
         balance_docs = SimpleDirectoryReader(
-            input_dir="data/balance/"
+            input_dir="data/balance/",
+            filename_as_id=True,
+            file_metadata=filename_fn
         ).load_data()
         spending_docs = SimpleDirectoryReader(
-            input_dir="data/spending/"
+            input_dir="data/spending/",
+            filename_as_id=True,
+            file_metadata=filename_fn
         ).load_data()
         all_docs = SimpleDirectoryReader(
-            input_dir="data/", recursive=True
+            input_dir="data/", recursive=True,
+            filename_as_id=True,
+            file_metadata=filename_fn
         ).load_data()
 
         # build index

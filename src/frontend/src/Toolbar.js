@@ -1,13 +1,11 @@
 import React from 'react';
-import WeeklyBudget from './WeeklyBudget';
-import ProjectedMonthlySpendingA from './ProjectedMonthlySpending';
-import Goals from './Goals';
+import WeeklyBudget from './components/WeeklyBudget';
+import Goals from './components/Goals';
+import ProjectedMonthlySpendingA from './components/ProjectedMonthlySpending';
 
 function Toolbar() {
     const goalsData = [
         { title: "Padel Racket", savedAmount: 180, goalAmount: 250 },
-        { title: "New Laptop", savedAmount: 200, goalAmount: 800 },
-        // ... add more goals
     ];
 
     return (

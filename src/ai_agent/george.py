@@ -1,76 +1,38 @@
-from llama_index import (
-    SimpleDirectoryReader,
-    VectorStoreIndex,
-    StorageContext,
-    load_index_from_storage,
-)
+import json
 
-from llama_index.agent import ReActAgent
+from llama_index.llms import OpenAI
+from llama_index.tools import FunctionTool
+
+import nest_asyncio
+
+nest_asyncio.apply()
+
+from llama_index.agent import OpenAIAgent
 from llama_index.llms import OpenAI
 
 
-from llama_index.tools import QueryEngineTool, ToolMetadata
-'''
-try:
-    storage_context = StorageContext.from_defaults(persist_dir="./storage/balance")
-    balance_index = load_index_from_storage(storage_context)
 
-    storage_context = StorageContext.from_defaults(persist_dir="./storage/spending")
-    spending_index = load_index_from_storage(storage_context)
+def add(a: int, b: int) -> int:
+    """Add two integers and returns the result integer"""
+    return a + b
 
-    index_loaded = True
-except:
-    index_loaded = False
 
-if not index_loaded:
-    # load data
-    balance_docs = SimpleDirectoryReader(
-        input_dir="data/balance/"
-    ).load_data()
-    spending_docs = SimpleDirectoryReader(
-        input_dir="data/spending/"
-    ).load_data()
+add_tool = FunctionTool.from_defaults(fn=add)
 
-    # build index
-    balance_index = VectorStoreIndex.from_documents(balance_docs)
-    spending_index = VectorStoreIndex.from_documents(spending_docs)
 
-    # persist index
-    balance_index.storage_context.persist(persist_dir="./storage/balance")
-    spending_index.storage_context.persist(persist_dir="./storage/spending")
-'''
+def multiply(a: int, b: int) -> int:
+    """Multiple two integers and returns the result integer"""
+    return a * b
 
-balance_engine = balance_index.as_query_engine(similarity_top_k=3)
-spending_engine = spending_index.as_query_engine(similarity_top_k=3)
-query_engine_tools = [
-    QueryEngineTool(
-        query_engine=balance_engine,
-        metadata=ToolMetadata(
-            name="balance",
-            description="Provides information about my account balance (either current and savings), daily, weekly, breakdown with absolute changes from time period to time period."
-            "Use a detailed plain text question as input to the tool."
-        ),
-    ),
-    QueryEngineTool(
-        query_engine=spending_engine,
-        metadata=ToolMetadata(
-            name="spending",
-            description="Provides information about my spending, it's categories and specifically how much of my money I'm spending where"
-            "Use a detailed plain text question as input to the tool."
-        ),
-    ),
-]
 
-llm = OpenAI(model="gpt-4")
-agent = ReActAgent.from_tools(query_engine_tools, llm=llm, verbose=True)
+multiply_tool = FunctionTool.from_defaults(fn=multiply)
 
-'''
-llm_instruct = OpenAI(model="gpt-3.5-turbo-instruct")
-agent_instruct = ReActAgent.from_tools(
-    query_engine_tools, llm=llm_instruct, verbose=True
+
+llm = OpenAI(model="gpt-3.5-turbo-0613")
+agent = OpenAIAgent.from_tools(
+    [multiply_tool, add_tool], 
+    llm=llm, 
+    verbose=True,
+    system_prompt="You are AskGeorge, an expert personal financial helper with context about my spending (i.e. which categories I spend in, what stores I spend in) as well as my earnings and account balances. The date today is 2023-10-08 (8th of October, 2023). This corresponds to Month 10 in the data sources that you will consult, so if I ask you about last month, I'm referring to month 9. If I ask you how much money I have all together, add the latest Month 10 money from my current account to my savings account. You are almost always talking about money or percentage changes, the currency is euros, so when you format numbers make sure to add the currency sign and if it's a decimal number make it 2 decimal points. Be conversational in your responses. For example, when asked 'How much has my savings account grown in the last 3 months', you will respond along the lines of 'Your savings account grew X euros, from Y to Z, which is a A% increase. Well done!'"
 )
-'''
-response = agent.chat("What is my current account balance?")
-print(str(response))
-response = agent.chat("Oh wow, ok. How much is in my savings? And how much is my current + savings?")
-print(str(response))
+
